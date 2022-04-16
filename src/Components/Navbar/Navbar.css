@@ -1,0 +1,24 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+.login-button{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 3px 15px 5px;
+    font-weight: 500;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+.login-button:hover{
+    background-color: rgb(223, 3, 3);
+    transition: .3s ease;
+}
+
+@media only screen and (max-width: 688px) {
+    .navbar-container{
+        width: 90%;
+    }
+}

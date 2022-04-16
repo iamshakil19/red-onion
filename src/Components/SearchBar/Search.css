@@ -1,0 +1,50 @@
+.search-container {
+    background-image: url(../../images/bannerbackground.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.searchBar-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 200px;
+}
+
+.input-field {
+    width: 350px;
+    padding: 10px 20px;
+    border-radius: 20px 0px 0px 20px;
+    outline: none;
+}
+
+.search-button {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.search-button:hover {
+    background-color: rgb(223, 3, 3);
+    transition: .3s ease;
+}
+
+@media only screen and (max-width: 688px) {
+    .search-container {
+        height: 300px;
+    }
+
+    .searchBar-title {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .input-field{
+        width: 250px;
+    }
+}

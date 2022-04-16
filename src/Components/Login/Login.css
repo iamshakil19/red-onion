@@ -1,0 +1,46 @@
+.login-container{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    height: 100vh;
+}
+.login-container .login-illustration{
+    width: 100%;
+}
+.form-container{
+    width: 80%;
+    margin: auto auto;
+}
+.email-password-text{
+    margin-bottom: 10px;
+}
+.input-style{
+    border: none;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}
+.form-container{
+    width: 80%;
+    margin: auto auto;
+}
+.login-btn{
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 9px;
+    border-radius: 20px;
+    background-color: #007DFE;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.login-btn:hover{
+    background-color: #0059fe;
+    transition: .3s;
+}
+.inputImg img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
